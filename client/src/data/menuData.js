@@ -1,0 +1,98 @@
+export const menuItems = [
+  {
+    id: 1,
+    name: 'Grill Prawns Pasta',
+    category: 'Pasta',
+    description:
+      'Creamy pasta finished with perfectly grilled prawns and fresh herbs.',
+    price: 1950,
+    image: '/images/menu/grill-prawns-pasta.jpg',
+    isPopular: true,
+    isNew: false,
+    isSpecial: true,
+  },
+  {
+    id: 2,
+    name: 'Biriyani Kottu Sawan',
+    category: 'Kottu',
+    description:
+      'A generous Selani-style kottu sawan packed with flavour and perfect for sharing.',
+    price: 3200,
+    image: '/images/menu/biriyani-kottu-sawan.jpg',
+    isPopular: true,
+    isNew: false,
+    isSpecial: false,
+  },
+  {
+    id: 3,
+    name: 'Special Mix Rice',
+    category: 'Rice',
+    description:
+      'Signature mixed rice served with a delicious selection of accompaniments.',
+    price: 1750,
+    image: '/images/menu/special-mix-rice.jpg',
+    isPopular: true,
+    isNew: false,
+    isSpecial: true,
+  },
+  {
+    id: 4,
+    name: 'Chicken Fried Rice',
+    category: 'Rice',
+    description:
+      'Wok-fried rice with tender chicken, vegetables and Selani seasonings.',
+    price: 1250,
+    image: '/images/menu/chicken-fried-rice.jpg',
+    isPopular: false,
+    isNew: false,
+    isSpecial: false,
+  },
+  {
+    id: 5,
+    name: 'Seafood Noodles',
+    category: 'Noodles',
+    description:
+      'Flavourful noodles tossed with a fresh selection of seafood.',
+    price: 1650,
+    image: '/images/menu/seafood-noodles.jpg',
+    isPopular: false,
+    isNew: true,
+    isSpecial: false,
+  },
+  {
+    id: 6,
+    name: 'Cheese Chicken Kottu',
+    category: 'Kottu',
+    description:
+      'Classic chicken kottu finished with a rich and creamy cheese blend.',
+    price: 1450,
+    image: '/images/menu/cheese-chicken-kottu.jpg',
+    isPopular: true,
+    isNew: true,
+    isSpecial: false,
+  },
+  {
+    id: 7,
+    name: 'Chocolate Delight',
+    category: 'Desserts',
+    description:
+      'Rich chocolate dessert made for the perfect finish to your meal.',
+    price: 850,
+    image: '/images/menu/chocolate-delight.jpg',
+    isPopular: false,
+    isNew: true,
+    isSpecial: false,
+  },
+  {
+    id: 8,
+    name: 'Fresh Lime',
+    category: 'Drinks',
+    description:
+      'Freshly prepared lime drink served chilled and refreshing.',
+    price: 450,
+    image: '/images/menu/fresh-lime.jpg',
+    isPopular: false,
+    isNew: false,
+    isSpecial: false,
+  },
+]
